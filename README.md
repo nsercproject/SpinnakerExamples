@@ -72,11 +72,26 @@ If you have any technical questions regarding these examples, please feel free t
 ### SpinPictureBox (C#)
 * shows how to provide a simple GUI that shows a live stream of the camera feed.
 
+### StereoDL Examples: End to End Deep Stereo (Python)
+* This example directly estimates high-quality disparity maps from stereo pairs using deep learning models.
+
+### StereoDL Examples: Neural Disparity Refinement (Python)
+* This example refines raw BumbleBee X disparity maps by using the rectified left image as reference.
+
+### StereoOpenCV (Python)
+* shows how to acquire stereo images from a Teledyne BumbleBee X camera using the PySpin SDK, process rectified and disparity images, and display and save the results.
+
+### StereoOpen3D (Python)
+* shows how to acquire stereo images from a Teledyne BumbleBee X camera using the PySpin SDK, compute a point cloud, and display the results.
+
 ### Synchronized (C++)
 * shows how to setup multiple FLIR Machine Vision cameras in a primary/secondary configuration, synchronizing image capture.  It relies on users to have followed the hardware layout defined on the FLIR IIS article, "Configuring Synchronized Capture with Multiple Cameras".
 
 ### TimeSync (C++)
 * This example is a simplified version of the "actioncommand" example, where the application will synchronize the camera's clock with each other, but does not do action commands.
+
+### UtilityStereo (C++, Python)
+* This example shows how to acquire image sets from the BumbleBee X stereo camera, compute 3D information using ImageUtilityStereo functions, and display a depth image (created via CreateDepthImage) along with interactive measurements.
 
 
 
